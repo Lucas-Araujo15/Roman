@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roman.webAPI", "roman.webAPI\roman.webAPI.csproj", "{BC64EA25-195F-4BD8-9A73-B55155028DC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC64EA25-195F-4BD8-9A73-B55155028DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC64EA25-195F-4BD8-9A73-B55155028DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC64EA25-195F-4BD8-9A73-B55155028DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC64EA25-195F-4BD8-9A73-B55155028DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3AADEDC-18E5-44F3-BAD0-59D0318A5796}
+	EndGlobalSection
+EndGlobal
