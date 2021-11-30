@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React, {Component} from 'react';
 
 import {NavigationContainer} from '@react-navigation/native';
@@ -23,7 +24,7 @@ class App extends Component {
             headerShown: false,
           }}>
           <AuthStack.Screen name="Login" component={Login} />
-          <AuthStack.Screen name="Main" component={Main} />
+          
         </AuthStack.Navigator>
       </NavigationContainer>
     );
