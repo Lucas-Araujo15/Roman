@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
-export default class Cadastro extends Component {
+export default class Perfil extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -16,7 +16,7 @@ export default class Cadastro extends Component {
 
     render(){
         return(
-            <Text>Testando Cadastro</Text>
+            <Text>Testando Perfil</Text>
         )
     }
 }

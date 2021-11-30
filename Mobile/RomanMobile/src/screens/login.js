@@ -35,6 +35,8 @@ export default class Login extends Component {
     if (requisicao.status == 200) {
       this.props.navigation.navigate('Main')
     }
+
+    console.warn(token)
   }
 
 
@@ -53,6 +55,7 @@ export default class Login extends Component {
             placeholder="E-mail"
             placeholderTextColor="#000"
             keyboardType="email-address"
+            onChangeText={email => this.setState({ email })}
           />
           <TextInput style={styles.input}
             placeholder="Senha"
@@ -60,6 +63,7 @@ export default class Login extends Component {
             keyboardType="email-address"
             secureTextEntry={true}
             keyboardType="default"
+            onChangeText={senha => this.setState({ senha })}
           />
           <TouchableOpacity
             onPress={this.logar}
@@ -90,7 +94,7 @@ const styles = StyleSheet.create({
 
   logoRoman: {
     width: 400,
-    height:250,
+    height: 250,
   },
 
   nomeApp: {
@@ -121,20 +125,20 @@ const styles = StyleSheet.create({
     height: 220
   },
 
-  btnLogar:{
-    backgroundColor:'#E9E200',
+  btnLogar: {
+    backgroundColor: '#E9E200',
     borderRadius: 10,
     width: 333,
-    alignItems:'center',
-    justifyContent:'center',
+    alignItems: 'center',
+    justifyContent: 'center',
     height: 57,
   },
 
-  txtLogar:{
+  txtLogar: {
     fontFamily: 'Raleway',
     fontSize: 15,
-    color:'#FFFFFF',
-    fontWeight:'bold'
+    color: '#FFFFFF',
+    fontWeight: 'bold'
   }
 
 
