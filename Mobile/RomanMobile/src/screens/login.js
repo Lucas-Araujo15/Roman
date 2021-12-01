@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import jwtDecode from 'jwt-decode';
 
 import {
   StyleSheet,
@@ -36,7 +37,7 @@ export default class Login extends Component {
       this.props.navigation.navigate('Main')
     }
 
-    console.warn(token)
+    console.warn(jwtDecode(token))
   }
 
 
@@ -99,7 +100,7 @@ const styles = StyleSheet.create({
 
   nomeApp: {
     textTransform: 'uppercase',
-    fontFamily: 'Raleway',
+    fontFamily: 'Sans-serif',
     fontSize: 38,
     letterSpacing: 10,
     color: '#E9E200'
