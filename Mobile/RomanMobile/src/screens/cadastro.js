@@ -38,11 +38,7 @@ export default class Cadastro extends Component {
                 },
             })
 
-        if (requisicao.status == 201) {
-            console.warn('cadastrado')
-        } else {
-            console.warn('não foi')
-        }
+        this.props.navigation.navigate('Lista')
     }
 
     render() {

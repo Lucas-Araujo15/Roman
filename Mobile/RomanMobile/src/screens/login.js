@@ -36,8 +36,6 @@ export default class Login extends Component {
     if (requisicao.status == 200) {
       this.props.navigation.navigate('Main')
     }
-
-    console.warn(jwtDecode(token))
   }
 
 

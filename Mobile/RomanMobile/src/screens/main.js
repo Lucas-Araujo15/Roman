@@ -21,7 +21,7 @@ class Main extends Component {
         return (
             <View style={styles.main}>
                 <StatusBar
-                    hidden={false}
+                    hidden={true}
                 />
 
                 <bottomTab.Navigator
